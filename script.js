@@ -12,15 +12,6 @@ const allBoxes = (() => {
     return {allBoxesArray};
 })();
 
-const gameBoard = (() => {
-    this.board = [{box0 : 1}];
-    const showBoard = () => {
-        return board;
-    };
-    return { showBoard };
-})();
-
-
 const playTheGame = (() => {
     this.whichPlayerTurn = document.getElementById('which-player-turn');
     this.turn = 0;
@@ -73,15 +64,6 @@ const addSymbol = (box) => {
     }
     return {whichPlayerTurn};
 }
-
-//const checkIfGameEnded = () => {
-//    let winArrays = 
-//}
-
-const Player = (symbol) => {
-    let playerChoices = [];
-
-};
 
 const restartGame = () => {
     for (let i = 0; i < allBoxes.allBoxesArray.length; i ++){
